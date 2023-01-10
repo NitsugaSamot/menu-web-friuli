@@ -1,0 +1,20 @@
+.navegacion {
+    background-color: $rojizo;
+    display: grid;
+    justify-content: center;
+    gap: 2rem; 
+    padding: 2rem;
+    a{
+        text-align: center;
+        color: $blanco;
+
+        &:hover {
+            color: $naranja;
+        }
+    }
+    @media(max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}

@@ -1,0 +1,15 @@
+
+.footer{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    .logo-footer{
+        justify-content: center;
+        width: 20rem;
+        margin-top: 1rem;
+    }
+}

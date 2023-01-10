@@ -1,0 +1,132 @@
+.container{
+
+
+    align-items: center;
+    max-width: 120rem; //1200px
+    width: 100%; 
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+
+    .card{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 3rem;
+        background-color: darken($blanco, 10);
+
+    }
+
+    .imagen{
+
+        @media(min-width: 460px){
+            width: 25rem;
+            height: 20rem;
+        }
+        @media(min-width: 768px){
+            width: 30rem;
+            height: 30rem;
+        }
+    }
+
+
+    .boton{
+        cursor:pointer;
+        background-color: #701b1b;
+        color: rgb(207, 189, 189);
+        text-decoration: none;
+        width: 100%;
+        padding: 1rem 3rem;
+        text-align: center;
+        font-weight: bold;
+        border:opacity($color: #c95757);
+
+        @media(min-width:960px) {
+            width: 40%;
+        }
+        @media(min-width: 460px){
+            font-size: 1.1rem;
+            padding: 0.8rem 2.8rem;
+        }
+        @media(min-width: 768px){
+            text-align: center;
+            font-size: 1.7rem;
+            width: 100%;
+        }
+        
+    }
+
+    .cardd,
+    .entradas,
+    .sandwiches,
+    .para-compartir,
+    .ensaladas,
+    .al-plato,
+    .pizzas,
+    .pastas,
+    .postres,
+    .capope,
+    .tablas,
+    .cafeteria,
+    .bebidas,
+    .cervezas,
+    .vinos{   
+        display: none;
+        width: 100%;
+        background-color: rgb(221, 213, 197);
+        padding: 2rem;
+    
+        h4{
+            color: $negro;
+            text-align: center;
+        }
+    
+        ul{
+            display: none;
+        }
+        li{
+            
+            list-style: none;
+            padding: 2rem;
+            margin: 0.5rem;
+        
+            @media(max-width: 460px){
+                text-align: left;
+                font-size: 1.4rem;
+            }
+            @media(min-width: 768px){
+                text-align: center;
+                font-size: 1.7rem;
+            }
+        } 
+        
+        li:nth-child(odd) {
+            background-color: darken(rgb(221, 213, 197), 5);
+        }
+
+    }
+    
+    .mostrar{
+        display: block;
+    }
+    @media(min-width: 460px){
+        width: 100%; 
+    }
+    @media(min-width: 768px){
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+}
+
+
+.pastas{
+    .sinCargo{
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $blanco;
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: $negro;
+    @media(min-width: 460px){
+        text-align: left;
+        font-size: 1.1rem;
+    }
+    @media(min-width: 768px){
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    @media(max-width: 480px){
+        font-size: 1.3rem;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: $rojizo;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}

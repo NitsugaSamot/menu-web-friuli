@@ -1,0 +1,33 @@
+.header {
+    background-color: whitesmoke;
+    .contenido-header{
+           text-align: center;
+    
+        }
+
+        .logo{
+
+            width: 20rem;
+            margin-bottom: 1rem;
+        }
+
+}
+
+.mensaje{
+    flex-direction: column;
+    background-color: $rojizo;
+    padding: 2rem;
+    
+    text-align: center;
+
+}
+
+.mensaje-container{
+    border-radius: 10%;
+    background-color: rgb(124, 50, 50);
+    padding: 0.3rem;
+}
+
+.mensaje-container h5{
+    color: antiquewhite;
+}
